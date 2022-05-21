@@ -1,3 +1,15 @@
+:root {
+  --purple: #6f42c1;
+  --dark-purple: #6f42c1;
+  --bs-border-radius: .75rem;
+}
+
 h1 {
-  color: red;
+  color: var(--purple);
+}
+ 
+.btn-primary {
+  --bs-btn-bg: var(--purple);
+  --bs-btn-border-color: var(--dark-purple);
+  --bs-btn-border-radius: var(--bs-border-radius);
 }
