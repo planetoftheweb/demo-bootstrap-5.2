@@ -1,15 +1,13 @@
 :root {
-  --purple: #6f42c1;
-  --dark-purple: #6f42c1;
-  --bs-border-radius: .75rem;
+  --bs-primary: #6f42c1;
+  --dark-purple: #392263;
 }
 
 h1 {
-  color: var(--purple);
+  color: var(--bs-primary)
 }
- 
+
 .btn-primary {
-  --bs-btn-bg: var(--purple);
+  --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--dark-purple);
-  --bs-btn-border-radius: var(--bs-border-radius);
 }
