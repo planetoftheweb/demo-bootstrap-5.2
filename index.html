@@ -1,65 +1,101 @@
-<body data-bs-spy="scroll" data-bs-target="#navbar-sample">
-  <nav id="navbar-sample" class="navbar navbar-expand bg-primary navbar-dark position-fixed w-100 top-0 left-0">
-    <div class="container">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#top">Home</a>
-        <a class="nav-link" href="#dolores">Dolores</a>
-        <a class="nav-link" href="#bubbles">Bubbles</a>
-        <a class="nav-link" href="#cosmo">Cosmo</a>
-      </div>
-    </div>
-  </nav>
+<div class="container">
+<h1>Form Checkboxes and Radio</h1>
+<h4 class="text-secondary">Checkbox</h4>
+<p class="form-label">
+  <span class="fw-bold">What vintage camper club memberships do you currently hold?</span>
+  <br>Choose all that are applicable.
+</p>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkboxTinCan">
+  <label class="form-check-label" for="checkboxTinCan">
+    Tin Cans in Tin Cans
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkboxRollingHomes" checked>
+  <label class="form-check-label" for="checkboxRollingHomes">
+    Rolling Homes
+  </label>
+</div>
 
-  <div class="container">
-    <h1 style="padding-top:70px;" id="top">ScrollSpy</h1>
-    <h2 class="text-primary" style="padding-top:70px; margin-top:-70px" id="dolores">Dolores</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, laborum itaque! Quam veniam, illo enim quas
-      delectus quidem voluptatem nisi temporibus saepe sit autem exercitationem officia quasi consequuntur ea! Pariatur.
-    </p>
-    <p>Ipsum modi natus earum corrupti quo, temporibus minus, maxime debitis fugiat voluptates, alias reprehenderit
-      architecto quae sit. Voluptatibus fuga officia sapiente? Nulla recusandae placeat fuga. Obcaecati quidem totam
-      praesentium facilis?</p>
-    <p>Nulla minus dignissimos voluptatibus distinctio vel quaerat quis quidem corporis culpa similique odit, veritatis
-      voluptatem facere qui ad quia libero assumenda ipsum consequuntur praesentium dolorem quasi harum provident a!
-      Earum.</p>
-    <p>A dignissimos, deleniti iure vitae dolorem numquam deserunt minima distinctio, aspernatur esse commodi explicabo
-      impedit, architecto eius atque. Quod, nulla ducimus earum consequuntur odio officiis expedita iure similique
-      eligendi enim!</p>
-    <p>Magni harum possimus, et dolorem amet perspiciatis nesciunt blanditiis similique mollitia rem. Nostrum impedit
-      dolore tempora non culpa eveniet, odit aliquam, ab, vitae praesentium ipsum quod laudantium libero. Veniam,
-      sapiente!</p>
+<hr>
 
-    <h2 class="text-primary" style="padding-top:70px; margin-top:-70px" id="bubbles">Bubbles</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, laborum itaque! Quam veniam, illo enim quas
-      delectus quidem voluptatem nisi temporibus saepe sit autem exercitationem officia quasi consequuntur ea! Pariatur.
-    </p>
-    <p>Ipsum modi natus earum corrupti quo, temporibus minus, maxime debitis fugiat voluptates, alias reprehenderit
-      architecto quae sit. Voluptatibus fuga officia sapiente? Nulla recusandae placeat fuga. Obcaecati quidem totam
-      praesentium facilis?</p>
-    <p>Nulla minus dignissimos voluptatibus distinctio vel quaerat quis quidem corporis culpa similique odit, veritatis
-      voluptatem facere qui ad quia libero assumenda ipsum consequuntur praesentium dolorem quasi harum provident a!
-      Earum.</p>
-    <p>A dignissimos, deleniti iure vitae dolorem numquam deserunt minima distinctio, aspernatur esse commodi explicabo
-      impedit, architecto eius atque. Quod, nulla ducimus earum consequuntur odio officiis expedita iure similique
-      eligendi enim!</p>
-    <p>Magni harum possimus, et dolorem amet perspiciatis nesciunt blanditiis similique mollitia rem. Nostrum impedit
-      dolore tempora non culpa eveniet, odit aliquam, ab, vitae praesentium ipsum quod laudantium libero. Veniam,
-      sapiente!</p>
 
-    <h2 class="text-primary" style="padding-top:70px; margin-top:-70px" id="cosmo">Cosmo</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, laborum itaque! Quam veniam, illo enim quas
-      delectus quidem voluptatem nisi temporibus saepe sit autem exercitationem officia quasi consequuntur ea! Pariatur.
-    </p>
-    <p>Ipsum modi natus earum corrupti quo, temporibus minus, maxime debitis fugiat voluptates, alias reprehenderit
-      architecto quae sit. Voluptatibus fuga officia sapiente? Nulla recusandae placeat fuga. Obcaecati quidem totam
-      praesentium facilis?</p>
-    <p>Nulla minus dignissimos voluptatibus distinctio vel quaerat quis quidem corporis culpa similique odit, veritatis
-      voluptatem facere qui ad quia libero assumenda ipsum consequuntur praesentium dolorem quasi harum provident a!
-      Earum.</p>
-    <p>A dignissimos, deleniti iure vitae dolorem numquam deserunt minima distinctio, aspernatur esse commodi explicabo
-      impedit, architecto eius atque. Quod, nulla ducimus earum consequuntur odio officiis expedita iure similique
-      eligendi enim!</p>
-    <p>Magni harum possimus, et dolorem amet perspiciatis nesciunt blanditiis similique mollitia rem. Nostrum impedit
-      dolore tempora non culpa eveniet, odit aliquam, ab, vitae praesentium ipsum quod laudantium libero. Veniam,
-      sapiente!</p>
-    </body>
+<h4 class="text-secondary">Radio</h4>
+
+<p class="form-label">
+  <span class="fw-bold">Choose which memership you prefer?</span>
+  <br>Choose all that are applicable.
+</p>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="membershipChoice" value="Tin Can" id="radioTinCan">
+  <label class="form-check-label" for="radioTinCan">
+    Tin Cans in Tin Cans
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="membershipChoice" value="Rolling Homes" id="radioRollingHomes"
+    checked>
+  <label class="form-check-label" for="radioRollingHomes">
+    Rolling Homes
+  </label>
+</div>
+<hr>
+
+<h4 class="text-secondary">Inline</h4>
+
+<p class="form-label">
+  <span class="fw-bold">What vintage camper club memberships do you currently hold?</span>
+  <br>Choose all that are applicable.
+</p>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" value="" id="checkboxTinCanInline">
+  <label class="form-check-label" for="checkboxTinCanInline">
+    Tin Cans in Tin Cans
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" value="" id="checkboxRollingHomesInline" checked>
+  <label class="form-check-label" for="checkboxRollingHomesInline">
+    Rolling Homes
+  </label>
+</div>
+
+<hr>
+
+<h4 class="text-secondary">Switches</h4>
+
+<p class="form-label">
+  <span class="fw-bold">What vintage camper club memberships do you currently hold?</span>
+  <br>Choose all that are applicable.
+</p>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" value="" id="switchTinCan">
+  <label class="form-check-label" for="switchTinCan">
+    Tin Cans in Tin Cans
+  </label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" value="" id="switchRollingHomes" checked>
+  <label class="form-check-label" for="switchRollingHomes">
+    Rolling Homes
+  </label>
+</div>
+
+<hr>
+
+<h4 class="text-secondary">Button</h4>
+
+<p class="form-label">
+  <span class="fw-bold">What vintage camper club memberships do you currently hold?</span>
+  <br>Choose all that are applicable.
+</p>
+<input class="btn-check" type="checkbox" value="" id="buttonTinCan">
+<label class="btn btn-outline-primary" for="buttonTinCan">
+  Tin Cans in Tin Cans
+</label>
+<input class="btn-check" type="checkbox" value="" id="buttonRollingHomes" checked>
+<label class="btn btn-outline-primary" for="buttonRollingHomes">
+  Rolling Homes
+</label>
+</div>
